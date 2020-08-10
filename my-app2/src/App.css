@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  padding: 10px;
+  width: 100px;
+}
+
+button {
+  line-height: 40px;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 5 px;
+  padding: 10 px 10 px;
+  margin: 0 2px;
+  font-size: 14 px;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+}
+
+.sqBox {
+  background-color: teal;
+  height: 200 px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200 px;
+  padding: 15px;
+  margin: 15px 0;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.circleBox {
+  background-color: tomato;
+  height: 200 px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200 px;
+  padding: 15px;
+  margin: 15px 0;
+  flex-direction: column;
+  border-radius: 100%;
+}
