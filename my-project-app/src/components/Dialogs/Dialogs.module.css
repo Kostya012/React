@@ -1,0 +1,43 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+.dialog {
+  padding: 10px 20px;
+}
+.dialog:hover {
+  background: greenyellow;
+}
+.dialog:nth-child(1) {
+  padding: 20px 20px 10px;
+}
+.dialogsItems {
+  vertical-align: center;
+}
+
+.dialogsItems a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+}
+
+.dialogsItems a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  /*padding: 5px 10px 5px 0;*/
+  border: 4px double white;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.dialogsItems a.activeLink {
+  color: green;
+}
+
+.dialog {
+}
+
+.messages {
+  padding: 10px;
+}

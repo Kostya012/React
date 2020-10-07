@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  grid-area: h;
+  background-color: chartreuse;
+  padding: 5px 5px;
+  margin: 0 10px 5px;
+}
+
+.header img {
+  width: 75px;
+}
+
+h1 {
+  display: flex;
+  margin: 5px 0;
+  color: gold;
+  text-shadow: black 0 0 10px;
+}
