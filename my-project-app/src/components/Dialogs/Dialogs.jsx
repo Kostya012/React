@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Dialogs.module.css";
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
-import {sendMessageActionCreator, updateNewMessageBodyActionCreator} from "../../redux/state";
+import {sendMessageActionCreator, updateNewMessageBodyActionCreator} from "../../redux/dialogs-reducer";
 
 const Dialogs = (props) => {
 // getState() получаем от store dialogsPage
@@ -14,7 +14,7 @@ const Dialogs = (props) => {
   let messagesElements = state.messages
   .map(m => <Message message={m.message}/>);
 
-  let newMessageBody = state.newMessagesBody;
+  let newMessageBody = state.newMessageBody;
 
   // Создание ссылки:
   let newMessageElement = React.createRef();

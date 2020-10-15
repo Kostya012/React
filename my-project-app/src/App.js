@@ -11,7 +11,7 @@ import Friends from "./components/NavBar/Friends/Friends";
 import {BrowserRouter, Route} from "react-router-dom";
 import Redirect from "react-router-dom/es/Redirect";
 import Switch from "react-router-dom/es/Switch";
-import {addPost} from "./redux/state";
+import {addPost} from "./redux/redux-store";
 
 
 
