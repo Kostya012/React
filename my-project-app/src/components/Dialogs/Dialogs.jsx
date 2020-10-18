@@ -6,7 +6,7 @@ import {sendMessageActionCreator, updateNewMessageBodyActionCreator} from "../..
 
 const Dialogs = (props) => {
 // getState() получаем от store dialogsPage
-  let state = props.store.getState().dialogsPage;
+  let state = props.dialogsPage;
 
   let dialogsElements = state.dialogs
   .map(dialog => <DialogItem img={dialog.img} name={dialog.name} id={dialog.id}/>);
@@ -20,12 +20,12 @@ const Dialogs = (props) => {
   let newMessageElement = React.createRef();
 
   let onSendMessageClick = () => {
-    props.store.dispatch(sendMessageActionCreator());
+    props.sendMessage();
   };
 
   let onNewMessageChange = (event) => {
     let body = event.target.value;
-    props.store.dispatch(updateNewMessageBodyActionCreator(body));
+    props.updateNewMessageBody(body);
   };
 
   return (
