@@ -8,7 +8,7 @@ const UPDATE_NEW_POST_TEXT = "UPDATE-NEW-POST-TEXT";
 const UPDATE_NEW_MESSAGE_BODY = "UPDATE-NEW-MESSAGE-BODY";
 const SEND_MESSAGE = "SEND-MESSAGE";
 
-let store = {
+let store1 = {
   // приватное свойство
   _state: {
     profilePage: {
@@ -107,6 +107,6 @@ let store = {
 //export впереди названия без default для экспорта
 //observer-наблюдатель
 
-export default store;
+export default store1;
 //для консоли просмотра state
-window.store = store;
+window.store1 = store1;

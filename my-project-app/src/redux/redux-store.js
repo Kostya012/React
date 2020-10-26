@@ -9,6 +9,8 @@ let reducers = combineReducers({
   sidebar: sidebarReducer
 });
 
-let reduxStore = createStore(reducers);
+let store = createStore(reducers);
 
-export default reduxStore;
+window.store = store;
+
+export default store;

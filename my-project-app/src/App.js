@@ -8,8 +8,8 @@ import Music from "./components/Music/Music.jsx";
 import Settings from "./components/Settings/Settings.jsx";
 import Friends from "./components/NavBar/Friends/Friends";
 import {BrowserRouter, Route} from "react-router-dom";
-import Redirect from "react-router-dom/es/Redirect";
-import Switch from "react-router-dom/es/Switch";
+import {Redirect} from "react-router-dom";
+import {Switch} from "react-router-dom";
 
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 
