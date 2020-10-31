@@ -32,6 +32,9 @@ const NavBar = () => {
         <li className={`${classes.item}`}>
           <NavLink to="/music" activeClassName={classes.activeLink}>Music</NavLink>
         </li>
+        <li className={`${classes.item} ${classes.active}`}>
+          <NavLink to="/users" activeClassName={classes.activeLink}>Find users</NavLink>
+        </li>
         <li className={`${classes.item}`}>
           <NavLink to="/settings" activeClassName={classes.activeLink}>Settings</NavLink>
         </li>
